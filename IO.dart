@@ -8,10 +8,15 @@
 
 import "dart:io";
 
+// void main() {
+//   print("Enter your favourite number:");
+//   // int? n = int.parse(stdin.readLineSync()!);
+//   String? n = (stdin.readLineSync()!);
+//   // Here ? and ! are for null safety
+//   print("Your favourite number is $n");
+// }
+
 void main() {
-  print("Enter your favourite number:");
-  // int? n = int.parse(stdin.readLineSync()!);
-  String? n = (stdin.readLineSync()!);
-  // Here ? and ! are for null safety
-  print("Your favourite number is $n");
+  print("Welcome to my account // printing from print statement");
+  stdout.write("Welcome to my account!  //printing from stdout.write()");
 }
